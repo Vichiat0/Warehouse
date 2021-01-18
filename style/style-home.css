@@ -1,0 +1,27 @@
+body{
+	background: url(media/imgprincipal.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	overflow: hidden;
+}
+#logoTitle{
+	color: #fe5f55;
+	font: normal 27px 'arial';
+}
+.tooltip .tooltip-inner {
+	color: black;
+	background-color: white;
+}
+#btnSubmit{
+	border-radius: 24px;
+	background-color: #fe5f55;
+	color: white;
+	font-size: 24px;
+}
+#btnSubmit:hover{
+	background-color: white;
+	color: #fe5f55;
+	font-weight: bold;
+}

@@ -1,0 +1,68 @@
+body{
+	background-image: url(media/imgLogin1.png);
+	background-size: cover;
+}
+#title{
+	margin: 5rem 0rem;
+}
+#form-box{
+	width: 30rem;
+	height: 40rem;
+	background-color: #55505c;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 20%;
+	box-shadow: 1rem 1rem 1rem #3a3640;
+}
+#form-box2{
+	width: 30rem;
+	height: 40rem;
+	background-color: #55505c;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 52%;
+	left: 21%;
+}
+#input{
+	border: none;
+	border-bottom: solid white;
+	background-color: transparent;
+	transition: 0.2s ease-in;
+	font-size: 20px;
+}
+#input:hover{
+	background-color: transparent;
+	border-bottom: solid #FE5F55;
+}
+#input:active{
+	background-color: transparent;
+	border:none;
+	border-bottom: solid #FE5F55;
+}
+#input:focus{
+	background-color: transparent;
+}
+#input:focus, textarea:focus{
+	outline: none;
+}
+#btnSubmit{
+	padding: 0.5rem 2rem;
+	background-color: #FE5F55;
+	color: white;
+	font-size: 20px;
+	transition: 0.2s ease-in;
+	cursor: pointer;
+}
+#btnSubmit:hover{
+	background-color: white;
+	color: #FE5F55;
+}
+#link{
+	color: white;
+	margin-bottom: -100px;
+}
+#link:hover{
+	transition: 0.2s ease-in;
+	color: darkgrey;
+}

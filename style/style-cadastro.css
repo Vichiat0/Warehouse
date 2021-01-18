@@ -1,0 +1,17 @@
+@font-face{
+	font-family: 'poppins';
+	src: url('fonts/Poppins-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+#title{
+	margin-top: 20px;
+	font: normal 40px 'poppins';
+	text-align: center;
+}
+#btnSubmit{
+	
+}
+.forms{
+	margin: 20px 100px;
+}

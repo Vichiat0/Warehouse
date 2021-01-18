@@ -1,0 +1,23 @@
+/*@import "../node_modules/bootstrap/scss/bootstrap";*/
+@font-face{
+	font-family: 'poppins';
+	src: url('fonts/Poppins-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+#title{
+	margin-top: 20px;
+	color: black;
+	font: normal 40px 'poppins';
+	text-align: center;
+}
+#btnSenha{
+	margin: 32px -10px;
+}
+#btnSubmit{
+	padding: 5px 40px;
+	font-size: 30px;
+}
+.forms{
+	margin: 20px 100px;
+}

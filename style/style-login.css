@@ -1,0 +1,48 @@
+body{
+	background: url(media/bglogin.png)no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+#container{
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 20%;
+	border-radius: 10px;
+}
+#input{
+	border: solid white 1px;
+}
+#btnSubmit{
+	background-color: #fe5f55;
+	transition: 0.2s ease-in;
+	cursor: pointer;
+	color: white;
+}
+#input:hover{
+	background-color: transparent;
+	border: solid 2px #FE5F55;
+}
+#input:active{
+	background-color: transparent;
+	border: solid 2px #FE5F55;
+}
+#input:focus{
+	background-color: transparent;
+}
+#input:focus, textarea:focus{
+	outline: none;
+}
+#btnSubmit:hover{
+	background-color: white;
+	color: #FE5F55;
+}
+#link{
+	color: white;
+	margin-bottom: -100px;
+}
+#link:hover{
+	transition: 0.2s ease-in;
+	color: darkgrey;
+}

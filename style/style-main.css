@@ -1,0 +1,58 @@
+// css (style-main.css)
+
+e#menu{
+	padding: 0.25rem 0.75rem;
+  	font-size: 1.25rem;
+  	line-height: 1;
+  	background-color: transparent;
+}
+
+input[type=search]::-ms-clear {
+	display: none;
+	width : 0;
+	height: 0;
+}
+input[type=search]::-ms-reveal {
+	display: none;
+	width : 0;
+	height: 0;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+	display: none;
+}
+
+.cards{
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
+	background-color: white;
+	border-radius: 15px;
+	padding: 10px 20px;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.filtro{
+	width: 100%;
+	height: 100px;
+	border-radius: 15px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.imgCard{
+	height: 100%;
+	width: 100%;
+	min-height: 110px;
+	min-width: 110px;
+	max-height: 140px;
+	max-width: 150px;
+	position: center;
+
+
+}
+.texto{
+	width: 100%;
+	min-width: 130px;
+}

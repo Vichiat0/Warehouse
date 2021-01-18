@@ -1,0 +1,18 @@
+/*.p{
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	font: normal 20px 'poppins';
+}*/
+#Logo{
+	color: #FE5F55;
+	font-size: 25px;
+}
+.icon{
+	width:70px;
+	height:70px;
+}
+a.nounderline:link
+{
+	text-decoration:none;
+}

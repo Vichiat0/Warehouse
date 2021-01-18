@@ -1,0 +1,28 @@
+#background{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 400px;
+	background-repeat: no-repeat;
+}
+
+#link{
+    color: #14ccb6;
+    border: none;
+}
+#link:hover{
+    color: #fe5f55;
+}
+.cards{
+	background-color: white;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.imgCard{
+	height: 150px;
+	width: 145px;
+	position: center;
+}
+.texto{
+	width: 100%;
+	color: black;
+}
